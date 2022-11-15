@@ -1,0 +1,33 @@
+"//how to add two numbers?"
+
+<input type="text" id="num1"><br><br>
+<input type="text" id="num2"><br><br>
+<button id="add">Answer</button><br>
+<p id="para"></p>
+<script>
+    let add=document.getElementById("add");
+    add.addEventListener("click",function(){
+       var num1 = document.getElementById('num1').value;
+       var num2 = document.getElementById('num2').value;
+       var res = parseInt(num1) + parseInt(num2);
+       document.getElementById("para").innerHTML = res ;
+    });
+</script>
+
+
+
+let add=document.getElementById("add");
+
+add.addEventListener("click",function(){
+  var num1 = document.getElementById('num1').value;
+  var num2 = document.getElementById('num2').value;
+  var res = parseInt(num1) + parseInt(num2);
+  document.getElementById("para").innerHTML = res ;
+});
+
+<input type="text" id="num1"><br><br>
+<input type="text" id="num2"><br><br>
+<button id="add">Answer</button>
+<br>
+<p id="para"></p>
+
